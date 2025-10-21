@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -28,6 +30,16 @@ public class Main {
         /*float prvniDesCislo = 0.1f;
         String druheDesCislo = "2";
         System.out.println(prvniDesCislo + druheDesCislo);*/
+
+        /*System.out.println("Ahoj, zadej jmeno:");
+
+        Scanner mujScanner = new Scanner(System.in);
+        String jmeno = mujScanner.nextLine();
+
+        System.out.println("Preji pekny den " + jmeno);*/
+
+        //Vylepsena kalkulacka
+
 
     }
 }
