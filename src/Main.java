@@ -53,11 +53,15 @@ public class Main {
         //System.out.println(prvniCislo % druheCislo);*/
 
         //String metody
-        Scanner mujScanner = new Scanner(System.in);
+        /*Scanner mujScanner = new Scanner(System.in);
         System.out.println("Zadej svuj text:");
         String mujText = mujScanner.nextLine();
 
-        System.out.println(mujText);
+        System.out.println(mujText.length());*/
+
+        /*String textCislo = "55";
+        int prevedeneCislo = Integer.parseInt(textCislo);
+        System.out.println(prevedeneCislo + 5);*/
 
     }
 }
