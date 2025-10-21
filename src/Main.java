@@ -39,7 +39,25 @@ public class Main {
         System.out.println("Preji pekny den " + jmeno);*/
 
         //Vylepsena kalkulacka
+        /*Scanner mujScanner = new Scanner(System.in);
 
+        System.out.println("Zadej prvni cislo:");
+        int prvniCislo = mujScanner.nextInt();
+        System.out.println("Zadej druhe cislo:");
+        int druheCislo = mujScanner.nextInt();
+
+        System.out.println(prvniCislo + druheCislo);
+        System.out.println(prvniCislo - druheCislo);
+        System.out.println(prvniCislo * druheCislo);
+        System.out.println(prvniCislo / druheCislo);
+        //System.out.println(prvniCislo % druheCislo);*/
+
+        //String metody
+        Scanner mujScanner = new Scanner(System.in);
+        System.out.println("Zadej svuj text:");
+        String mujText = mujScanner.nextLine();
+
+        System.out.println(mujText);
 
     }
 }
