@@ -63,5 +63,11 @@ public class Main {
         int prevedeneCislo = Integer.parseInt(textCislo);
         System.out.println(prevedeneCislo + 5);*/
 
+        int x = 10;
+        int y = 9;
+
+        System.out.println(x);
+
+
     }
 }
