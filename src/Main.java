@@ -63,11 +63,17 @@ public class Main {
         int prevedeneCislo = Integer.parseInt(textCislo);
         System.out.println(prevedeneCislo + 5);*/
 
-        int x = 10;
+        /*int x = 10;
         int y = 9;
         int z = 12;
 
-        System.out.println(!(x > y || z < x) && y > z);
+        System.out.println(!(x > y || z < x) && y > z);*/
+
+        //Podminky
+        Scanner mujScanner = new Scanner(System.in);
+
+        System.out.println("Zadej vek:");
+        int vek = mujScanner.nextInt();
 
 
     }
