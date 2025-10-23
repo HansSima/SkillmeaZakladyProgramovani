@@ -123,7 +123,7 @@ public class Main {
         System.out.println("Vypoctene BMI: " + bmi);*/
 
         //Hra kostky licha=vyhravas, suda=prohravas
-        int hozeneCislo;
+        /*int hozeneCislo;
         Random nahodnyGenerator = new Random();
 
         hozeneCislo = nahodnyGenerator.nextInt(1,7);
@@ -135,7 +135,15 @@ public class Main {
         }
         else {
             System.out.println("Suda prohravas");
-        }
+        }*/
+
+        //Vyber dne
+        Scanner mujScanner = new Scanner(System.in);
+        int cisloDne;
+
+        System.out.println("Zadej cislo dne:");
+        cisloDne = mujScanner.nextInt();
+
 
     }
 }
