@@ -126,7 +126,7 @@ public class Main {
         int hozeneCislo;
         Random nahodnyGenerator = new Random();
 
-        hozeneCislo = nahodnyGenerator.nextInt(1, 7);
+        hozeneCislo = nahodnyGenerator.nextInt(1,7);
 
         System.out.println("Hozene cislo: " + hozeneCislo);
 
