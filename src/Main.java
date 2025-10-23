@@ -161,6 +161,25 @@ public class Main {
                 System.out.println("Neplatne cislo dne");
         }*/
 
+        //Pole
+        /*int[] znamky = new int[5];
+        znamky[0] = 3;
+        znamky[1] = 5;
+        znamky[2] = 2;
+        znamky[3] = 3;
+        znamky[4] = 1;*/
+
+        /*int[] znamky = new int[] {3, 5, 2, 3, 1};
+        System.out.println(znamky[4]);
+
+        String[] jmenaStudentu = new String[] {"Honza", "Lenka", "Petr", "Katka", "Petra"};
+        jmenaStudentu[3] = jmenaStudentu[0];
+
+        System.out.println(jmenaStudentu[2].length());
+
+        int[][] viceDimPole = new int[2][2];
+        viceDimPole[0][0] = 83;*/
+
 
     }
 }
