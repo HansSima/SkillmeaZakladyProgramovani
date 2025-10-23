@@ -166,6 +166,8 @@ public class Main {
             case 7:
                 System.out.println("Je nedele");
                 break;
+            default:
+                System.out.println("Neplatne cislo dne");
         }
 
 
