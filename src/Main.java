@@ -180,6 +180,9 @@ public class Main {
         int[][] viceDimPole = new int[2][2];
         viceDimPole[0][0] = 83;*/
 
+        //Smycky
+        //For
+
 
     }
 }
