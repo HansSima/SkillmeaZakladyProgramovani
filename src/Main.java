@@ -65,8 +65,9 @@ public class Main {
 
         int x = 10;
         int y = 9;
+        int z = 12;
 
-        System.out.println(x);
+        System.out.println(!(x > y || z < x) && y > z);
 
 
     }
