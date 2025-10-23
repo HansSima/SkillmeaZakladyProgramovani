@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -93,7 +94,7 @@ public class Main {
         // (<18.5) - podváha
         // (>=18.5 && <25) - optimální váha
         // (>=25) - nadváha
-        float vyska;
+        /*float vyska;
         float hmotnost;
         float bmi;
         Scanner mujScanner = new Scanner(System.in);
@@ -119,7 +120,22 @@ public class Main {
             System.out.println("Nelze zadat zapornou hmotnost");
         }
 
-        System.out.println("Vypoctene BMI: " + bmi);
+        System.out.println("Vypoctene BMI: " + bmi);*/
+
+        //Hra kostky licha=vyhravas, suda=prohravas
+        int hozeneCislo;
+        Random nahodnyGenerator = new Random();
+
+        hozeneCislo = nahodnyGenerator.nextInt(1, 7);
+
+        System.out.println("Hozene cislo: " + hozeneCislo);
+
+        if(hozeneCislo % 2 == 1){
+            System.out.println("Licha vyhravas");
+        }
+        else {
+            System.out.println("Suda prohravas");
+        }
 
     }
 }
