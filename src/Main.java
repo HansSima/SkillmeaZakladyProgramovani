@@ -183,6 +183,15 @@ public class Main {
         //Smycky
         //For
 
+        /*for(int i = 1; i <= 5; i++) {
+            System.out.println(i * 5);
+        }*/
+
+        String[] jmenaStudentu = new String[] {"Honza", "Lenka", "Petr", "Katka", "Petra"};
+
+        for(int i = 0; i < 5; i++){
+            System.out.println(jmenaStudentu[i]);
+        }
 
     }
 }
