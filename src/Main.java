@@ -70,20 +70,26 @@ public class Main {
         System.out.println(!(x > y || z < x) && y > z);*/
 
         //Podminky
-        Scanner mujScanner = new Scanner(System.in);
+        /*Scanner mujScanner = new Scanner(System.in);
 
         System.out.println("Zadej vek:");
         int vek = mujScanner.nextInt();
 
+        //Tohle rozhoduje o tom zda je uzivatel dospely/dite/senior
         if(vek >= 18) {
             System.out.println("Uzivatel je dospely");
+            if(vek >= 65){
+                System.out.println("Uzivatel je senior");
+            }
         }
         else if(vek < 18 && vek >= 0){
             System.out.println("Uzivatel je dite");
         }
         else {
             System.out.println("Nelze zadat zaporny vek");
-        }
+        }*/
+
+        //Vypocet BMI
 
 
 
