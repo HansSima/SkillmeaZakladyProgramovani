@@ -75,6 +75,17 @@ public class Main {
         System.out.println("Zadej vek:");
         int vek = mujScanner.nextInt();
 
+        if(vek >= 18) {
+            System.out.println("Uzivatel je dospely");
+        }
+        else if(vek < 18 && vek >= 0){
+            System.out.println("Uzivatel je dite");
+        }
+        else {
+            System.out.println("Nelze zadat zaporny vek");
+        }
+
+
 
     }
 }
