@@ -234,6 +234,31 @@ public class Main {
             //ridiciPromenna++;
         }while(ridiciPromenna != 0);*/
 
+        //break = ukonceni smycky; continue = ukonceni iterace a pokracovani dale
+
+        /*int ridiciPromenna = 0;
+
+        while(true){
+            System.out.println(ridiciPromenna);
+
+            if(ridiciPromenna > 5){
+                continue;
+            }
+            ridiciPromenna++;
+        }*/
+
+        //Hod kostkou vylepseni o smycku
+        int hozeneCislo;
+        Random nahodnyGenerator = new Random();
+        hozeneCislo = nahodnyGenerator.nextInt(1,7);
+        System.out.println("Hozene cislo: " + hozeneCislo);
+
+        if(hozeneCislo % 2 == 1){
+            System.out.println("Licha vyhravas");
+        }
+        else {
+            System.out.println("Suda prohravas");
+        }
 
     }
 }
