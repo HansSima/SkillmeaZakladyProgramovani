@@ -249,7 +249,7 @@ public class Main {
 
         //Hod kostkou vylepseni o smycku
 
-        int hozeneCislo;
+        /*int hozeneCislo;
         boolean ridiciPromenna = true;
         String ukonceni = "";
         Random nahodnyGenerator = new Random();
@@ -275,8 +275,18 @@ public class Main {
                 ridiciPromenna = false;
             }
 
-        }while(ridiciPromenna);
+        }while(ridiciPromenna);*/
 
+
+
+
+        //Blackjack
+        int skoreHrace = 0;
+        int skoreKrupiera = 0;
+        int tazenaKarta = 0;
+        String uzivatelskyVstup;
+        Random nahGen = new Random();
+        Scanner mujScanner = new Scanner(System.in);
 
 
 
