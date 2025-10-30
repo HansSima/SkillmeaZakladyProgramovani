@@ -187,11 +187,38 @@ public class Main {
             System.out.println(i * 5);
         }*/
 
-        String[] jmenaStudentu = new String[] {"Honza", "Lenka", "Petr", "Katka", "Petra"};
+        /*String[] jmenaStudentu = new String[] {"Honza", "Lenka", "Petr", "Katka" };
 
-        for(int i = 0; i < 5; i++){
+        for(int i = 0; i < jmenaStudentu.length; i++){
             System.out.println(jmenaStudentu[i]);
         }
+
+        //foreach
+        for(String jednoJmeno: jmenaStudentu) {
+            System.out.println(jednoJmeno);
+        }*/
+
+        /*String[] jmenaStudentu = new String[]{"Honza", "Lenka", "Katka", "Petr", "Petra"};
+
+        for (int i = 0; i < jmenaStudentu.length; i++) {
+            System.out.println(jmenaStudentu[i]);
+        }
+
+        for (String jednoJmeno: jmenaStudentu) {
+            System.out.println(jednoJmeno);
+        }*/
+
+        /*int[] nasobky = new int[10];
+
+        //Naplneni pole nasobky 10
+        for(int i=0; i < nasobky.length; i++){
+            nasobky[i] = 10 * i;
+        }
+
+        //Vypis pole nasobku
+        for(int jedenNasobek: nasobky){
+            System.out.println(jedenNasobek);
+        }*/
 
     }
 }
