@@ -220,5 +220,20 @@ public class Main {
             System.out.println(jedenNasobek);
         }*/
 
+        //Smycka while
+        /*int ridiciPromenna = 0;
+
+
+        while(ridiciPromenna != 0){
+            System.out.println(ridiciPromenna);
+            ridiciPromenna++;
+        }
+
+        do{
+            System.out.println(ridiciPromenna);
+            //ridiciPromenna++;
+        }while(ridiciPromenna != 0);*/
+
+
     }
 }
