@@ -289,6 +289,44 @@ public class Main {
         Scanner mujScanner = new Scanner(System.in);
 
 
+        do {
+            tazenaKarta = nahGen.nextInt(1, 14);
+            System.out.println("Tazena karta je: " + tazenaKarta);
+            skoreHrace = skoreHrace + tazenaKarta;
+            System.out.println("Skore hrace je: "+ skoreHrace);
+
+            if(skoreHrace > 21){
+                System.out.println("Prohral jsi");
+                break;
+            }
+
+            System.out.println("Chces dalsi kartu stiskni - d");
+            System.out.println("Uz nechces dalsi kartu stiskni - q");
+            uzivatelskyVstup = mujScanner.nextLine();
+
+            if(uzivatelskyVstup.equals("d")){
+                continue;
+            }
+            else if(uzivatelskyVstup.equals("q")){
+                while(skoreKrupiera < skoreHrace){
+                    tazenaKarta = nahGen.nextInt(1, 14);
+                    skoreKrupiera = skoreKrupiera + tazenaKarta;
+                }
+                break;
+            }
+
+        }while(true);
+
+        System.out.println("Skore hrace: " + skoreHrace);
+        System.out.println("Skore krupiera: " + skoreKrupiera);
+
+        if((skoreHrace > skoreKrupiera && skoreHrace <= 21) || skoreKrupiera>21){
+            System.out.println("Vyhral jste");
+        }else if(skoreKrupiera == skoreHrace) {
+            System.out.println("Je to remiza");
+        }else {
+            System.out.println("Uzivatel prohral");
+        }
 
 
     }
