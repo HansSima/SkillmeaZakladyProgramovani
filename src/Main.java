@@ -258,20 +258,22 @@ public class Main {
             System.out.println("Pro hod kostkou siskni enter");
             mujScanner.nextLine();
 
+            hozeneCislo = nahodnyGenerator.nextInt(1,7);
+            System.out.println("Hozene cislo: " + hozeneCislo);
 
+            if(hozeneCislo % 2 == 1){
+                System.out.println("Licha vyhravas");
+            }
+            else {
+                System.out.println("Suda prohravas");
+            }
 
 
         }while(ridiciPromenna);
 
-        hozeneCislo = nahodnyGenerator.nextInt(1,7);
-        System.out.println("Hozene cislo: " + hozeneCislo);
 
-        if(hozeneCislo % 2 == 1){
-            System.out.println("Licha vyhravas");
-        }
-        else {
-            System.out.println("Suda prohravas");
-        }
+
+
 
     }
 }
