@@ -248,8 +248,21 @@ public class Main {
         }*/
 
         //Hod kostkou vylepseni o smycku
+
         int hozeneCislo;
+        boolean ridiciPromenna = true;
         Random nahodnyGenerator = new Random();
+        Scanner mujScanner = new Scanner(System.in);
+
+        do {
+            System.out.println("Pro hod kostkou siskni enter");
+            mujScanner.nextLine();
+
+
+
+
+        }while(ridiciPromenna);
+
         hozeneCislo = nahodnyGenerator.nextInt(1,7);
         System.out.println("Hozene cislo: " + hozeneCislo);
 
