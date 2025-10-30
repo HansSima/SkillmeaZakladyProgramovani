@@ -251,6 +251,7 @@ public class Main {
 
         int hozeneCislo;
         boolean ridiciPromenna = true;
+        String ukonceni = "";
         Random nahodnyGenerator = new Random();
         Scanner mujScanner = new Scanner(System.in);
 
@@ -268,6 +269,11 @@ public class Main {
                 System.out.println("Suda prohravas");
             }
 
+            System.out.println("Pro ukonceni hry zadej pismeno q");
+            ukonceni = mujScanner.nextLine();
+            if(ukonceni.equals("q")) {
+                ridiciPromenna = false;
+            }
 
         }while(ridiciPromenna);
 
